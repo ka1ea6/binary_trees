@@ -1,8 +1,12 @@
 #include "binary_trees.h"
 
-void binary_tree_delete_left(binary_tree_t *tree);
-void binary_tree_delete_right(binary_tree_t *tree);
-
+/**
+ * binary_tree_delete - function to delete all the nodes of the given tree.
+ *
+ * @tree: pointer to the tree to be deleted.
+ *
+ * Return: Nothing.
+ */
 
 void binary_tree_delete(binary_tree_t *tree)
 {
