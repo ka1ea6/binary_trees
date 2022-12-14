@@ -23,6 +23,14 @@ int binary_tree_balance(const binary_tree_t *tree)
 	return (left - right);
 }
 
+/**
+ * binary_tree_height - functino to get the height of the tree.
+ *
+ * @tree: tree to be checked.
+ *
+ * Return: height of the tree or 0 if tree is NULL.
+ */
+
 size_t binary_tree_height(const binary_tree_t *tree)
 {
 	size_t height_left = 0, height_right = 0;
