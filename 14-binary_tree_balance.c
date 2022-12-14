@@ -17,7 +17,7 @@ int binary_tree_balance(const binary_tree_t *tree)
 
 	if (!tree)
 		return (balance);
-	
+
 	temp = malloc(sizeof(binary_tree_t));
 
 	if (!temp)
